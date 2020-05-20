@@ -15,6 +15,7 @@
             <asp:Label ID="message" runat="server" Text=""></asp:Label>
         </div>
         <asp:Button ID="btn" runat="server" Text="Отправить" OnClick="OnClick" />
+        <asp:TextBox ID="copyText" runat="server"></asp:TextBox>
     </form>
 </body>
 </html>
