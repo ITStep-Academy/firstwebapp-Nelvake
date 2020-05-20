@@ -10,7 +10,11 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            Введите своё имя: <asp:TextBox ID="name" runat="server"></asp:TextBox>
+            <br />
+            <asp:Label ID="message" runat="server" Text=""></asp:Label>
         </div>
+        <asp:Button ID="btn" runat="server" Text="Отправить" OnClick="OnClick" />
     </form>
 </body>
 </html>

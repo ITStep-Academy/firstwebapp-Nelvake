@@ -13,5 +13,10 @@ namespace FirstLesson
         {
 
         }
+
+        protected void OnClick(object sender, EventArgs e)
+        {
+            message.Text = $"Добрый день, {name.Text}";
+        }
     }
 }
